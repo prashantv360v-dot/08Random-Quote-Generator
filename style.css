@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #5372F0;
+}
+.wrapper{
+    width: 60%;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1.8rem 1.8rem 1.5rem;
+}
+.wrapper header{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper .content{
+    margin: 2rem 0;
+}
+.content .quote-area{
+    display: flex;
+    justify-content: center;
+
+}
+.quote-area i{
+    font-size: 1rem;
+}
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+.quote-area i:last-child{
+    display: flex;
+    align-items: center;
+    margin: 0 0 3px 10px;
+}
+.quote-area .quote{
+    font-size: 1.3rem;
+    text-align: center;
+    word-break: break-all;
+}
+.content .author{
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 1.25rem;
+    justify-content: flex-end;
+}
+.author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+
+}
+.wrapper .button{
+    border-top: 1px solid #ccc;
+   
+}
+button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.2rem;
+    margin-top: 1.2rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 13px 22px;
+    border-radius: 1.8rem;
+    background: #5372F0;
+}
